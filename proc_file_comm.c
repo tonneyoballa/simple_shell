@@ -60,7 +60,7 @@ int proc_file_commands(char *file_path, int *exe_ret)
 
 	hist = 0;
 	file = open(file_path, O_RDONLY);
-	if ((file) = -1)
+	if (file == -1)
 	{
 		*exe_ret = cant_open(file_path);
 		return (*exe_ret);
