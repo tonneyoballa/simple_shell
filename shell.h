@@ -20,6 +20,7 @@ char *_strdup(char *str);
 int _atoi(char *s);
 int _putchar(char c);
 void _puts(char *str);
+int _env(cmd_t *cmd);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 int count_input(char *str);
 int count_delims(char *str, char *del);
